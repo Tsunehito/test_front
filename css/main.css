@@ -1,0 +1,11 @@
+p {
+  font: 1px;
+}
+
+body {
+  background-color: #4455FF;
+}
+
+body #div {
+  width: 100%;
+}
