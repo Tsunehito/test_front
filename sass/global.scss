@@ -2,9 +2,21 @@
 @import "exo-2";
 @import "exo-3";
 
-body{
-  background-color: #4455FF;
-  #div {
-    width: 100%;
+#container{
+  #disque{
+    transition: box-shadow 0.5s;
+    width: 100px;
+    height: 100px;
+    background-color: #4477FF;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+
+    &:hover{
+      background-color: #cd5c5c;
+      //box-shadow:  3px 3px 2px rgba(black, 0.15);
+
+      box-shadow: 5px 5px 5px rgba(black, 0.50);
+    }
   }
+
 }
